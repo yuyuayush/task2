@@ -3,18 +3,16 @@ $bg-color: #f4f4f4;
 
 body {
   font-family: Arial, sans-serif;
-  background-color: $bg-color;
+  background-color: #6A8886;
   margin: 0;
   padding: 0;
 }
 
 .container {
-  max-width: 600px;
+ 
   margin: 2rem auto;
   padding: 1rem;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
+  
 }
 
 button {
@@ -24,16 +22,12 @@ button {
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
-
-  &:hover {
-    background-color: darken($primary-color, 10%);
-  }
 }
 .todo-form {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
-
+  background-color: #ffffff;
   input,
   textarea {
     margin-bottom: 0.5rem;
@@ -44,7 +38,9 @@ button {
 }
 
 .todo-list {
+  display: flex; margin: 3px; gap: 30px;
   .todo-item {
+    background: #E2D9CD;
     padding: 1rem;
     margin-bottom: 1rem;
     border: 1px solid #ccc;
